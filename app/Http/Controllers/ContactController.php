@@ -31,7 +31,7 @@ class ContactController extends Controller
      */
     public function __construct(Contact $messages, User $users)
     {
-        $this->middleware('lang');
+        // $this->middleware('lang');
 
         $this->messages = $messages;
         $this->users    = $users;

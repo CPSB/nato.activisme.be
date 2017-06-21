@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.front-end')
 
 @section('title', 'Disclaimer')
 
@@ -106,6 +106,26 @@
                         andere diensten aan te bieden met betrekking tot website-activiteit en internetgebruik. Google mag deze informatie aan derden verschaffen indien Google hiertoe wettelijk wordt verplicht, of voor zover deze derden
                         deze informatie verwerken namens Google. Google zal uw ip-adres niet combineren met andere gegevens waarover Google beschikt.
                     </p>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
+
+@section('footer')
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-4">
+                    <p>© {{ date('Y') }} - ActivismeBE</p>
+                </div>
+
+                <div class="col-md-6 col-sm-8">
+                    <ul class="bottom_ul">
+                        <li><a href="http://www.activisme.be">ActivismeBE</a></li>
+                        <li><a href="https://www.vrede.be/">Vrede.be</a></li>
+                        <li><a href="https://stopnato2017.org/">StopNATO2017</a></li>
+                    </ul>
                 </div>
             </div>
         </div>

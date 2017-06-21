@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.front-end')
 
 @section('title', 'Contact')
 
@@ -29,7 +29,7 @@
                             <div class="col-md-12">
                                 {!! Form::text('email', old('email'), ['class' => 'form-control', 'placeholder' => trans('contact.placeholder-email')]) !!}
                                 @if ($errors->has('email')) <p class="help-block">{{ ucfirst($errors->first('email')) }}</p> @endif
-                            </div>                            
+                            </div>
                         </div> {{-- /Email contact form --}}
 
                         <div class="form-group @if ($errors->has('subject')) has-error @endif"> {{-- Subject form group --}}

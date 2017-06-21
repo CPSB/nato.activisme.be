@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Countries;
 use Illuminate\Http\Request;
 
 /**
@@ -25,7 +26,7 @@ class HomeController extends Controller
     {
         $this->middleware('banned')->only(['backend']);
         $this->middleware('auth')->only(['backend']);
-        $this->middleware('lang');
+        // $this->middleware('lang');
     }
 
     /**
@@ -35,7 +36,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('welcome');
+        $countries = new Countries;
+        return view('welcome', compact('countries'));
     }
 
     /**

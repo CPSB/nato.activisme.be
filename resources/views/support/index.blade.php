@@ -39,7 +39,7 @@
                                     <tr>
                                         <td><strong>#{{ $signature->id }}</strong></td>
 
-                                        @if ((string) $signature->publish === 'Y')
+                                        @if ((string) $signature->publish === 'N')
                                             <td colspan="3"><span class="text-muted"><i>(De gebruiker heeft gekozen om anoniem te tekenen.)</i></span></td>
                                         @else
                                             <td>{{ ucfirst($signature->name) }}</td>

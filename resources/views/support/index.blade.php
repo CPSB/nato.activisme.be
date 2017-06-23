@@ -44,7 +44,7 @@
                                         @else
                                             <td>{{ ucfirst($signature->name) }}</td>
                                             <td>
-                                                <img style="height: 12px;" src="{{ asset('img/flags/' . $signature->cntry->short_name) }}" alt="{{ $signature->cntry->long_name }}">
+                                                <span class="flag-icon flag-icon-{{ strtolower($signature->cntry->short_name) }}"></span>
                                                 {{ $signature->cntry->long_name }}
                                             </td>
 

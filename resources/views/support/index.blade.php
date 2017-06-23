@@ -39,13 +39,13 @@
                                     <tr>
                                         <td><strong>#{{ $signature->id }}</strong></td>
 
-                                        @if ((string) $signature->publish !== 'Y')
+                                        @if ((string) $signature->publish === 'Y')
                                             <td colspan="3"><span class="text-muted"><i>(De gebruiker heeft gekozen om anoniem te tekenen.)</i></span></td>
                                         @else
                                             <td>{{ ucfirst($signature->name) }}</td>
                                             <td>
-                                                <img style="height: 12px;" src="{{ asset('img/flags/' . $signature->country->short_name) }}" alt="{{ $signature->country->long_name }}">
-                                                {{ $signature->country->long_name }}
+                                                <img style="height: 12px;" src="{{ asset('img/flags/' . $signature->cntry->short_name) }}" alt="{{ $signature->cntry->long_name }}">
+                                                {{ $signature->cntry->long_name }}
                                             </td>
 
                                             <td>

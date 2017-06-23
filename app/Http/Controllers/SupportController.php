@@ -13,7 +13,7 @@ class SupportController extends Controller
     {
         $signatures = new SingleSupport;
         $countries  = Countries::all();
-        $results    = $signatures->paginate(25);
+        $results    = $signatures->where('petition', config('app.name'))->with(['cntry'])->paginate(25);
 
         return view('support.index', compact('signatures', 'countries', 'results'));
     }

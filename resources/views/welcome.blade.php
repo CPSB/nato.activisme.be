@@ -25,52 +25,32 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                     <div style="margin-top: -20px;" class="page-header">
-                        <h2 style="margin-bottom: -5px;">Ontbindingsverdrag van de NAVO</h2>
+                        <h2 style="margin-bottom: -5px;">@lang('petition.first-heading')</h2>
                     </div>
 
-                    <p>
-                        De NAVO is verouderd. De Verenigde Naties hebben het mandaat om, met landen uit de hele wereld, onze gemeenschappelijke veiligheid te bewaken en te bewaren.
-                        De NAVO doet, door militair in te grijpen en chaos en geweld te creëren, vaak net het omgekeerde.
-                        Massavernietigingswapens, de modernisering van het kernwapenarsenaal, en de stijgende militaire budgetten kosten ons niet enkel letterlijk ‘bommenvol’ geld;
-                        het maakt de wereld er bovendien niet per sé veiliger op. Wel integendeel, leert ons de (recente en minder recente) geschiedenis.
-                        Tijd voor een degelijke kosten-batenanalyse?
-                        Omwille van onderstaande redenen, wordt er opgeroepen tot de onmiddellijke ontbinding van de NAVO.
-                    </p>
+                    <p> @lang('petition.intro') </p>
 
-                    <p style="margin-bottom: 25px;">
-                        Ben je nog niet overtuigd? Lees dan onderstaand ‘Ontbindingsverdrag van de NAVO’, opgesteld door de NAVO-regeringsleiders.
-                        Overtuigd? Teken de petitie en waarborg onze gezamenlijke, toekomstige veiligheid!
-                    </p>
+                    <p style="margin-bottom: 25px;">@lang('petition.intro_not_convinced')</p>
 
                     <div style="margin-top: -10px;" class="page-header">
-                        <h3 style="margin-bottom: -5px;">BESLUIT VAN DE NAVO-REGERINGSLEIDERS, BRUSSEL, 25 MEI</h3>
+                        <h3 style="margin-bottom: -5px;">@lang('petition.second-heading')</h3>
                     </div>
 
-                    <h3>Toelichting:</h3>
+                    <h3>@lang('petition.third-heading')</h3>
 
-                    <p>
-                        We verklaren dat de NAVO verouderd is. Het <a href="https://nl.wikipedia.org/wiki/Warschaupact" target="_blank">Warschaupact</a> is meer dan een kwart eeuw geleden ontbonden.
-                        Het is tijd dat ook de NAVO ophoudt te bestaan en dat we onze veiligheid gemeenschappelijk, samen met onze buren,
-                        maar ook met landen uit de hele wereld, organiseren. We willen dit doen in de schoot van de Verenigde Naties, die net daarvoor een mandaat heeft gekregen.
-                    </p>
+                    <p>@lang('petition.text_1', ['link' => 'https://nl.wikipedia.org/wiki/Warschaupact', 'link_text' => 'Warschaupact'])</p>
 
-                    <p>
-                        We hebben vastgesteld dat de NAVO heeft bijgedragen aan een onveiligere en instabielere wereld. Ons bondgenootschap en een aantal van onze leden hebben verschillende militaire interventies opgezet, die in de betrokken landen desastreus zijn afgelopen en chaos en geweld hebben voortgebracht.
-                    </p>
+                    <p>@lang('petition.text_2')</p>
 
-                    <p>
-                        Met Rusland zijn de spanningen gevaarlijk opgelopen. We stellen vast dat de opeenvolgende uitbreidingen van het NAVO-grondgebied in Rusland als bedreigend worden ervaren. De recente ontplooiing van enkele duizenden NAVO-troepen aan de grenzen van Rusland, de stijgende militaire budgetten en de modernisering van de kernwapenarsenalen hebben bijgedragen tot een nieuw Koude Oorlogsklimaat. In de Baltische Zee-regio, in Oekraïne en Syrië vonden al een aantal gevaarlijke incidenten plaats.
-                    </p>
+                    <p>@lang('petition.text_3')</p>
 
-                    <p>
-                        Het gevaar is extra groot omdat we te maken hebben met kernwapenmachten. Omdat we de mensheid niet langer in gevaar willen brengen zullen de miljarden kostende moderniseringen van het kernwapenarsenaal worden stopgezet. Deze massavernietigingswapens zullen worden ontmanteld. We nodigen de andere kernwapenmachten uit om dit ook te doen in een sfeer van vertrouwen. We benadrukken dat we in de toekomst onze veiligheid samen gestalte willen geven.
-                    </p>
+                    <p>@lang('petition.text_4')</p>
 
-                    <h3>DE NAVO-REGERINGSLEIDERS,</h3>
+                    <h3>@lang('petition.fourth-heading')</h3>
 
                     <ol class="list-unstyled" style="list-style: decimal inside;">
-                        <li style="padding-bottom: 5px;">vaststellend dat <a href="https://nl.wikipedia.org/wiki/Operatie_Allied_Force" target="_blank">Operation Allied Force</a> (24 maart – 10 juni) in Kosovo en Servië niet gedekt was door een mandaat van de Veiligheidsraad van de Verenigde Naties, noch dat het om een daad van zelfverdediging ging zoals verlangd door het VN-Handvest;</li>
-                        <li style="padding-bottom: 5px;">vaststellend dat de oorlog in Kosovo en Servië in overtreding is met artikel 1 van het <a href="https://nl.wikisource.org/wiki/Noord-Atlantisch_Verdrag" target="_blank">NAVO-verdrag</a> waarin de partijen er zich toe verbinden om “zich in hun internationale betrekkingen te onthouden van bedreiging met of gebruik van geweld op enige wijze die onverenigbaar is met de doelstelling van de Verenigde Naties";</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-1', ['link' => 'https://nl.wikipedia.org/wiki/Operatie_Allied_Force', 'link_text' => 'Operation Allied Force'])</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-2', ['link' => 'https://nl.wikisource.org/wiki/Noord-Atlantisch_Verdrag', 'link_text' => 'NAVO-verdrag'])</li>
                         <li style="padding-bottom: 5px;">vaststellend dat de militaire internationale operaties in voormalig Joegoslavië en Libië niet gedekt waren door het <a href="https://nl.wikisource.org/wiki/Noord-Atlantisch_Verdrag" target="_blank">NAVO-verdrag</a> dat krachtens artikel 5 het optreden van de alliantie beperkt tot de verdediging van het grondgebied;</li>
                         <li style="padding-bottom: 5px;">vaststellend dat het Nieuw Strategisch Concept van Washington (1999) het uitdrukkelijk heeft over ‘niet-artikel 5’ opdrachten en zo de NAVO omvormt tot een militaire alliantie die buiten het NAVO-grondgebied optreedt zonder machtiging te vragen van de nationale parlementen voor deze taken die niet voorzien in het <a href="https://nl.wikisource.org/wiki/Noord-Atlantisch_Verdrag" tager="_blank">NAVO-verdrag</a>;</li>
                         <li style="padding-bottom: 5px;">vaststellend dat het grondgebied van de NAVO opeenvolgende keren is uitgebreid naar het grondgebied van de voormalige Warschaupact landen en van voormalige Sovjetrepublieken in de buurt van de Russische veiligheidsruimte;</li>

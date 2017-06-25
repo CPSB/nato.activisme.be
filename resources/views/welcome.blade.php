@@ -28,7 +28,23 @@
                         <h2 style="margin-bottom: -5px;">Ontbindingsverdrag van de NAVO</h2>
                     </div>
 
-                    <p class="lead">BESLUIT VAN DE NAVO-REGERINGSLEIDERS, BRUSSEL, 25 MEI</p>
+                    <p>
+                        De NAVO is verouderd. De Verenigde Naties hebben het mandaat om, met landen uit de hele wereld, onze gemeenschappelijke veiligheid te bewaken en te bewaren.
+                        De NAVO doet, door militair in te grijpen en chaos en geweld te creëren, vaak net het omgekeerde.
+                        Massavernietigingswapens, de modernisering van het kernwapenarsenaal, en de stijgende militaire budgetten kosten ons niet enkel letterlijk ‘bommenvol’ geld;
+                        het maakt de wereld er bovendien niet per sé veiliger op. Wel integendeel, leert ons de (recente en minder recente) geschiedenis.
+                        Tijd voor een degelijke kosten-batenanalyse?
+                        Omwille van onderstaande redenen, wordt er opgeroepen tot de onmiddellijke ontbinding van de NAVO.
+                    </p>
+
+                    <p style="margin-bottom: 25px;">
+                        Ben je nog niet overtuigd? Lees dan onderstaand ‘Ontbindingsverdrag van de NAVO’, opgesteld door de NAVO-regeringsleiders.
+                        Overtuigd? Teken de petitie en waarborg onze gezamenlijke, toekomstige veiligheid!
+                    </p>
+
+                    <div style="margin-top: -10px;" class="page-header">
+                        <h3 style="margin-bottom: -5px;">BESLUIT VAN DE NAVO-REGERINGSLEIDERS, BRUSSEL, 25 MEI</h3>
+                    </div>
 
                     <h3>Toelichting:</h3>
 

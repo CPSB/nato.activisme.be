@@ -4,6 +4,7 @@ return [
     'first-heading' => '',
 
     'intro' => '',
+    'intro_not_convinced' => '',
 
     'second-heading' => '',
     'third-heading' => '',

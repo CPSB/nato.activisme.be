@@ -51,35 +51,33 @@
                     <ol class="list-unstyled" style="list-style: decimal inside;">
                         <li style="padding-bottom: 5px;">@lang('petition.point-1', ['link' => 'https://nl.wikipedia.org/wiki/Operatie_Allied_Force', 'link_text' => 'Operation Allied Force'])</li>
                         <li style="padding-bottom: 5px;">@lang('petition.point-2', ['link' => 'https://nl.wikisource.org/wiki/Noord-Atlantisch_Verdrag', 'link_text' => 'NAVO-verdrag'])</li>
-                        <li style="padding-bottom: 5px;">vaststellend dat de militaire internationale operaties in voormalig Joegoslavië en Libië niet gedekt waren door het <a href="https://nl.wikisource.org/wiki/Noord-Atlantisch_Verdrag" target="_blank">NAVO-verdrag</a> dat krachtens artikel 5 het optreden van de alliantie beperkt tot de verdediging van het grondgebied;</li>
-                        <li style="padding-bottom: 5px;">vaststellend dat het Nieuw Strategisch Concept van Washington (1999) het uitdrukkelijk heeft over ‘niet-artikel 5’ opdrachten en zo de NAVO omvormt tot een militaire alliantie die buiten het NAVO-grondgebied optreedt zonder machtiging te vragen van de nationale parlementen voor deze taken die niet voorzien in het <a href="https://nl.wikisource.org/wiki/Noord-Atlantisch_Verdrag" tager="_blank">NAVO-verdrag</a>;</li>
-                        <li style="padding-bottom: 5px;">vaststellend dat het grondgebied van de NAVO opeenvolgende keren is uitgebreid naar het grondgebied van de voormalige Warschaupact landen en van voormalige Sovjetrepublieken in de buurt van de Russische veiligheidsruimte;</li>
-                        <li style="padding-bottom: 5px;">vaststellend dat de NAVO begin 2017 duizenden extra NAVO-troepen en militair materieel heeft gestationeerd in Polen en de Baltische Staten en werkt aan de uitbouw van een anti-raketschild;</li>
-                        <li style="padding-bottom: 5px;">vaststellend dat de NAVO in 2014 samenwerkingsakkoorden heeft afgesloten met Zweden en Finland, in de Baltische Zee-regio;</li>
-                        <li style="padding-bottom: 5px;">vaststellend dat de NAVO uitdrukkelijk de deur openlaat voor een toekomstig lidmaatschap van Oekraïne en Georgië en daardoor de militaire operaties in beide landen versterkt;</li>
-                        <li style="padding-bottom: 5px;">vaststellend dat de NAVO-uitbreidingen en troepenopbouw in de Baltische staten de veiligheid van de bevolkingen aldaar vermindert en er de oorlogsdreiging verhoogt;</li>
-                        <li style="padding-bottom: 5px;">vaststellend dat de NAVO in 2014 heeft beslist dat de lidstaten er moeten naar streven om 2% van het BBP te besteden aan hun defensiebudgetten;</li>
-                        <li style="padding-bottom: 5px;">overwegend dat het aantal mensen dat in armoede leeft in de EU en de VS respectievelijk 17,3 % en 14,5 % bedraagt van de bevolking;</li>
-                        <li style="padding-bottom: 5px;">overwegend de grote wanverhouding tussen de defensiebudgetten van de NAVO en van Rusland en dat het Russische defensiebudget in 2017 zal krimpen van 7 naar 5 % van dat van de NAVO;</li>
-                        <li style="padding-bottom: 5px;">vaststellend dat de nucleaire taakverdeling tussen de VS en een aantal NAVO-lidstaten, inclusief de opslag van kernbommen buiten VS-grondgebied, in strijd is met artikel 1 en artikel 2 van het nonproliferatieverdrag dat de verspreiding van kernwapens moet tegen gaan en waarin bepaald is dat er geen transfer mag bestaan van kernwapens tussen kernwapenstaten en niet-kernwapenstaten waardoor de onrechtstreekse controle over of overdracht van kernwapens van een kernwapenstaat naar een niet-kernwapenstaat zou bewerkstelligd worden;</li>
-                        <li style="padding-bottom: 5px;">erkennend dat de kernwapenstaten van de NAVO grootschalige moderniseringsprogramma’s opzetten in weerwil van artikel 6 van het nonproliferatieverdrag waarin ze zich ertoe verbinden hun kernwapenarsenalen volledig af te bouwen.</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-3', ['link' => 'https://nl.wikisource.org/wiki/Noord-Atlantisch_Verdrag', 'link_text' => 'NAVO-verdrag'])</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-4', ['link' => 'https://nl.wikisource.org/wiki/Noord-Atlantisch_Verdrag', 'link_text' => 'NAVO-verdrag'])</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-5')</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-6')</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-7')</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-8')</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-9')</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-10')</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-11')</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-12')</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-13')</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-14')</li>
                     </ol>
 
-                    <h4>A. BESLUITEN DAT DE NAVO MET ONMIDDELLIJKE INGANG ZAL ONTBONDEN WORDEN</h4>
+                    <h4>@lang('petition.fifth-heading')</h4>
 
                     <ol class="list-unstyled" style="list-style: decimal inside;">
-                        <li style="padding-bottom: 5px;">wegens herhaaldelijke inbreuken op het internationaal recht zoals vervat in het VN-Handvest;</li>
-                        <li style="padding-bottom: 5px;">wegens inbreuken op het <a href="https://nl.wikisource.org/wiki/Noord-Atlantisch_Verdrag" target="_blank">NAVO-verdrag</a>, meer bepaald op de preambule, artikel 1, artikel 2, artikel 5 en artikel 6;</li>
-                        <li style="padding-bottom: 5px;">wegens inbreuken op het <a href="https://nl.wikipedia.org/wiki/Non-proliferatieverdrag" target="_blank">NPT-verdrag</a>;</li>
-                        <li style="padding-bottom: 5px;">wegens de manifeste stijging van de conventionele en nucleaire bewapening die de internationale vrede en veiligheid in gedrang dreigt te brengen</li>
-                        <li style="padding-bottom: 5px;">wegens de impact van de stijgende bewapeningsuitgaven op de middelen nodig voor de publieke dienstverlening;</li>
-                        <li style="padding-bottom: 5px;">wegens de militaire confrontatiepolitiek met Rusland in een context van opeenvolgende NAVO-uitbreidingen, stijgende bewapening, troepenopbouw en de constructie van een raketschild;</li>
-                        <li style="padding-bottom: 5px;">wegens de materiële en menselijke schade als gevolg van directe en indirecte militaire interventies;</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-15')</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-16')</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-17')</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-18')</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-19')</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-20')</li>
+                        <li style="padding-bottom: 5px;">@lang('petition.point-21')</li>
                     </ol>
 
-                    <p class="lead">
-                        B. BESLUITEN DAT DE INFRASTRUCTUUR EN DE MIDDELEN VAN DE NAVO, ALSOOK HET VRIJGEKOMEN VREDESDIVIDEND DOOR HET WEGVALLEN VAN DE BEWAPENINGSVERPLICHTING VAN DE NAVO DAAR WAAR MOGELIJK WORDEN INGEZET OM DE DUURZAME ONTWIKKELINGSDOELSTELLINGEN (SDG’S) VAN DE VERENIGDE NATIES TE HELPEN BEREIKEN.
-                    </p>
+                    <p class="lead"> @lang('petition.end-paragraph') </p>
 
                 </div>
             </div>

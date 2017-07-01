@@ -10,7 +10,7 @@
     </div>
 
     @if (session()->get('class') && session()->get('message'))
-        <div style="padding-top: 15px;" class="row">
+        <div class="row padding-top-row">
             <div class="col-md-12">
                 <div class="{{ session()->get('class') }}" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -20,11 +20,11 @@
         </div>
     @endif
 
-    <div style="padding-top: 15px;" class="row">
+    <div class="padding-top-row row">
         <div class="col-md-9">
             <div class="panel panel-default">
                 <div class="panel-body">
-                    <div style="margin-top: -20px;" class="page-header">
+                    <div class="margin-div-top-header page-header">
                         <h2 style="margin-bottom: -5px;">@lang('petition.first-heading')</h2>
                     </div>
 
@@ -48,33 +48,33 @@
 
                     <h3>@lang('petition.fourth-heading')</h3>
 
-                    <ol class="list-unstyled" style="list-style: decimal inside;">
-                        <li style="padding-bottom: 5px;">@lang('petition.point-1', ['link' => 'https://nl.wikipedia.org/wiki/Operatie_Allied_Force', 'link_text' => 'Operation Allied Force'])</li>
-                        <li style="padding-bottom: 5px;">@lang('petition.point-2', ['link' => 'https://nl.wikisource.org/wiki/Noord-Atlantisch_Verdrag', 'link_text' => 'NAVO-verdrag'])</li>
-                        <li style="padding-bottom: 5px;">@lang('petition.point-3', ['link' => 'https://nl.wikisource.org/wiki/Noord-Atlantisch_Verdrag', 'link_text' => 'NAVO-verdrag'])</li>
-                        <li style="padding-bottom: 5px;">@lang('petition.point-4', ['link' => 'https://nl.wikisource.org/wiki/Noord-Atlantisch_Verdrag', 'link_text' => 'NAVO-verdrag'])</li>
-                        <li style="padding-bottom: 5px;">@lang('petition.point-5')</li>
-                        <li style="padding-bottom: 5px;">@lang('petition.point-6')</li>
-                        <li style="padding-bottom: 5px;">@lang('petition.point-7')</li>
-                        <li style="padding-bottom: 5px;">@lang('petition.point-8')</li>
-                        <li style="padding-bottom: 5px;">@lang('petition.point-9')</li>
-                        <li style="padding-bottom: 5px;">@lang('petition.point-10')</li>
-                        <li style="padding-bottom: 5px;">@lang('petition.point-11')</li>
-                        <li style="padding-bottom: 5px;">@lang('petition.point-12')</li>
-                        <li style="padding-bottom: 5px;">@lang('petition.point-13')</li>
-                        <li style="padding-bottom: 5px;">@lang('petition.point-14')</li>
+                    <ol class="list-unstyled list-point">
+                        <li class="li-padding-bottom">@lang('petition.point-1', ['link' => 'https://nl.wikipedia.org/wiki/Operatie_Allied_Force', 'link_text' => 'Operation Allied Force'])</li>
+                        <li class="li-padding-bottom">@lang('petition.point-2', ['link' => 'https://nl.wikisource.org/wiki/Noord-Atlantisch_Verdrag', 'link_text' => 'NAVO-verdrag'])</li>
+                        <li class="li-padding-bottom">@lang('petition.point-3', ['link' => 'https://nl.wikisource.org/wiki/Noord-Atlantisch_Verdrag', 'link_text' => 'NAVO-verdrag'])</li>
+                        <li class="li-padding-bottom">@lang('petition.point-4', ['link' => 'https://nl.wikisource.org/wiki/Noord-Atlantisch_Verdrag', 'link_text' => 'NAVO-verdrag'])</li>
+                        <li class="li-padding-bottom">@lang('petition.point-5')</li>
+                        <li class="li-padding-bottom">@lang('petition.point-6')</li>
+                        <li class="li-padding-bottom">@lang('petition.point-7')</li>
+                        <li class="li-padding-bottom">@lang('petition.point-8')</li>
+                        <li class="li-padding-bottom">@lang('petition.point-9')</li>
+                        <li class="li-padding-bottom">@lang('petition.point-10')</li>
+                        <li class="li-padding-bottom">@lang('petition.point-11')</li>
+                        <li class="li-padding-bottom">@lang('petition.point-12')</li>
+                        <li class="li-padding-bottom">@lang('petition.point-13')</li>
+                        <li class="li-padding-bottom">@lang('petition.point-14')</li>
                     </ol>
 
                     <h4>@lang('petition.fifth-heading')</h4>
 
-                    <ol class="list-unstyled" style="list-style: decimal inside;">
-                        <li style="padding-bottom: 5px;">@lang('petition.point-15')</li>
-                        <li style="padding-bottom: 5px;">@lang('petition.point-16')</li>
-                        <li style="padding-bottom: 5px;">@lang('petition.point-17')</li>
-                        <li style="padding-bottom: 5px;">@lang('petition.point-18')</li>
-                        <li style="padding-bottom: 5px;">@lang('petition.point-19')</li>
-                        <li style="padding-bottom: 5px;">@lang('petition.point-20')</li>
-                        <li style="padding-bottom: 5px;">@lang('petition.point-21')</li>
+                    <ol class="list-unstyled list-point">
+                        <li class="li-padding-bottom">@lang('petition.point-15')</li>
+                        <li class="li-padding-bottom">@lang('petition.point-16')</li>
+                        <li class="li-padding-bottom">@lang('petition.point-17')</li>
+                        <li class="li-padding-bottom">@lang('petition.point-18')</li>
+                        <li class="li-padding-bottom">@lang('petition.point-19')</li>
+                        <li class="li-padding-bottom">@lang('petition.point-20')</li>
+                        <li class="li-padding-bottom">@lang('petition.point-21')</li>
                     </ol>
 
                     <p class="lead"> @lang('petition.end-paragraph') </p>
@@ -169,17 +169,17 @@
                 </div>
             </div>
 
-            <div style="margin-bottom: 10px;">
-			<span class="text-muted">
-				<i>
-					<small>
-						Bij het ondertekenen gaat u akkoord met onze <a href="{{ url('disclaimer') }}"> Disclaimer </a>.
-					</small>
-				</i>
-			</span>
+            <div class="margin-bottom-10">
+                <span class="text-muted">
+                    <i>
+                        <small>
+                            Bij het ondertekenen gaat u akkoord met onze <a href="{{ url('disclaimer') }}"> Disclaimer </a>.
+                        </small>
+                    </i>
+                </span>
             </div>
 
-            <div style="margin-bottom: 10px;">
+            <div class="margin-bottom-10">
                 <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.nato.activisme.be" class="btn btn-block btn-social btn-facebook">
                     <span class="fa fa-facebook"></span> @lang('social.share', ['provider' => 'Facebook'])
                 </a>

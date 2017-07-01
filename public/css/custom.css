@@ -122,6 +122,7 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
     color: #fff;
     background-color:#59b5fa;
 }
+
 @media(max-width:768px){
     #login-dp{
         background-color: inherit;
@@ -131,4 +132,24 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
         background-color: inherit;
         border-top:0 none;
     }
+}
+
+.margin-div-top-header {
+    margin-top: -20px;
+}
+
+.list-point {
+    list-style: decimal inside;
+}
+
+.padding-top-row {
+    padding-top: 15px
+}
+
+.li-padding-bottom {
+    padding-bottom: 5px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
 }

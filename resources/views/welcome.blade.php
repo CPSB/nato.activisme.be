@@ -25,15 +25,15 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                     <div class="margin-div-top-header page-header">
-                        <h2 style="margin-bottom: -5px;">@lang('petition.first-heading')</h2>
+                        <h2 class="margin-bottom-minus-5">@lang('petition.first-heading')</h2>
                     </div>
 
                     <p> @lang('petition.intro') </p>
 
-                    <p style="margin-bottom: 25px;">@lang('petition.intro_not_convinced')</p>
+                    <p class="margin-bottom-25">@lang('petition.intro_not_convinced')</p>
 
-                    <div style="margin-top: -10px;" class="page-header">
-                        <h3 style="margin-bottom: -5px;">@lang('petition.second-heading')</h3>
+                    <div class="margin-top-minus-10 page-header">
+                        <h3 class="margin-bottom-minus-5">@lang('petition.second-heading')</h3>
                     </div>
 
                     <h3>@lang('petition.third-heading')</h3>
